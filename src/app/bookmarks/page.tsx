@@ -1,5 +1,5 @@
 import { getAllBookmarks } from "@/lib/bookmarkApi";
-import { BookmarkType, BookmarksResponse } from "@/types";
+import { BookmarksResponse } from "@/types";
 import Bookmarks from '@/app/components/Bookmarks';
 
 type Props = {
