@@ -20,7 +20,7 @@ export default async function BookmarkPage(props: Props) {
   return (
     <div>
       <SearchForm />
-      <Bookmarks bookmarks={bookmarkRes} />
+      <Bookmarks bookmarks={bookmarkRes} query={query} />
     </div>
   );
 }
