@@ -33,3 +33,5 @@ services:
     restart: always
     depends_on:
       - bookmark-api
+    environment:
+      - NEXT_PUBLIC_SERVER_API_BASE_URL=http://bookmarker-api-svc:8080
